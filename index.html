@@ -1,64 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>enoch.</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <table width="1000" borderspacing="0" cellspacing="0" cellpadding="0" align="center" border="0" bgcolor="#3F3E33" valign="bottom">
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="index.html">
-                            <img id="headerimage" src="header.png" draggable="false">
-                        </a>
-                    </td>
-                    <td>
-                        <a>
-                            <img id="spacersmall" src="spacersmall.png" draggable="false">
-                        </a>
-                        <a href="">
-                            <img id="first" src="first.png" draggable="false">
-                        </a>
-                    </td>
-                    <td>
-                        <a>
-                            <img id="spacersmall" src="spacersmall.png" draggable="false">
-                        </a>
-                        <a href="">
-                            <img id="prev" src="prev.png" draggable="false">
-                        </a>
-                    </td>
-                    <td>
-                        <a>
-                            <img id="spacersmall" src="spacersmall.png" draggable="false">
-                        </a>
-                        <a href="">
-                            <img id="next" src="next.png" draggable="false">
-                        </a>
-                    </td>
-                    <td>
-                        <a>
-                            <img id="spacersmall" src="spacersmall.png" draggable="false">
-                        </a>
-                        <a href="">
-                            <img id="recent" src="recent.png" draggable="false">
-                        </a>
-                    </td>
-                    <td>
-                        <a>
-                        <img id="thespacer" src="spacer.png" draggable="false">
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    <div id="content">
-        <table width="1000" borderspacing="0" cellspacing="0" cellpadding="0" align="center" border="0" bgcolor="#A1A296" valign="bottom">
-            
-        </table>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>extant :: home</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="main-navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/icon.png" alt="extant icon" draggable="false">
+                </a>
+            </div>
+                <div>
+                    <a href="index.html">
+                        <img src="images/first.png" alt="first button" draggable="false">
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src="images/previous.png" alt="previous page" draggable="false">
+                    </a>
+                </div>
+                <div>
+                    <a href="index.html">
+                        <img src="images/next.png" alt="next page" draggable="false">
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src="images/latest.png" alt="latest page" draggable="false">
+                    </a>
+                </div>
+        </div>
+        <div class="sidebar">
+            <div>
+                <a href="placeholder.html">
+                    ABOUT
+                </a>
+            </div>
+            <div>
+                <a href="placeholder.html">
+                    ARCHIVE
+                </a>
+            </div>
+        </div>
     </div>
-    </body>
-    <footer>
-    </footer>
+    <div class="player-container">
+        <audio controls>
+            <source src="tracks/bmxtrack.mp3" type="audio/mpeg">
+        </audio>
+        <div class="song-title"> Now Playing: Boards of Canada - BMX Track</div>
+    </div>
+    <div class="content-wrapper">
+        <img class="comic-image" src="pages/page01.png" alt="Comic Page 1">
+        <img class="comic-image" src="pages/page02.png" alt="Comic Page 2">
+    </div>
+    <div class="bottom-navbar">
+        <div>
+            <a href="index.html">
+                <img src="images/spacer.png" draggable="false" alt="Logo">
+            </a>
+        </div>
+        <div>
+            <a href="index.html">
+                <img src="images/first.png" draggable="false" alt="First">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="images/previous.png" draggable="false" alt="Previous">
+            </a>
+        </div>
+        <div>
+            <a href="index.html">
+                <img src="images/next.png" draggable="false" alt="Next">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="images/latest.png" draggable="false" alt="Latest">
+            </a>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div>
+                <img src="images/banner3.gif" alt="norton antivirus">
+            </div>
+            <div>
+                <p>
+                    version 0.1 (12/06/24)<br>
+                    contact webmaster @ kohncke@yahoo.com
+                </p>
+            </div>
+            <div class="directors-commentary">
+                A Few Old Tunes seems to be sourced from a cassette tape containing a (presumably) hand-selected set of pre-BoC Maxima tracks. The leaking of these tracks to p2p networks (Soulseek, originally) provided much drama on WATMM.
+            </div>
+        </div>
+    </div>
+</body>
 </html>

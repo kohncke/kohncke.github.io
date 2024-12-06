@@ -1,0 +1,162 @@
+@font-face {
+    font-family: FontOne;
+    src: url("fonts/fontone.ttf");
+}
+
+html {
+    background-color: #828371;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: grid;
+    grid-template-columns: auto 36px;
+    align-items: normal;
+    margin: auto;
+}
+
+.main-navbar {
+    display: grid;
+    grid-template-columns: 250px repeat(4, 115px) 740px;
+    grid-template-rows: 150px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    background-color: #3f3e33;
+    align-items: end;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 36px;
+    grid-template-rows: repeat(2, 75px);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    font-family: FontOne,sans-serif;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    background-color: #897b10
+}
+
+.sidebar a {
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    color: white;
+}
+
+.content-wrapper {
+    background-color: #a1a296;
+}
+
+.footer-wrapper {
+    display: grid;
+    background-color: #3f3e33;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 1486px;
+    align-items: end;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 111px 1fr;
+    grid-template-rows: 75px;
+    grid-column-gap: 5px;
+    grid-row-gap: 0;
+    align-items: end;
+}
+
+.footer p {
+    font-family: FontOne, sans-serif;
+    text-align: left;
+}
+
+.player-container {
+    width: 1465px;
+    margin: 0 auto;
+    background-color: #897b10;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 10px;
+    height: fit-content;
+}
+
+.player-container audio {
+    height: 30px;
+}
+
+.player-container .song-title {
+    color: white;
+    font-family: FontOne, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.song-title {
+    font-family: FontOne,sans-serif;
+    color: white;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    max-width: 1450px;
+    width: 1450px;
+    margin: 0 auto;
+    background-color: #a1a296;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.comic-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 111px 1fr 300px;
+    grid-template-rows: 75px;
+    grid-column-gap: 5px;
+    grid-row-gap: 0;
+    align-items: end;
+}
+
+.directors-commentary {
+    font-family: FontOne, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bottom-navbar {
+    display: grid;
+    grid-template-columns: 250px repeat(4, 115px) 776px;
+    grid-template-rows: 65px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    background-color: #3f3e33;
+    align-items: end;
+}
+
+.under-construction p {
+    color: white;
+    font-family: FontOne, sans-serif;
+}
